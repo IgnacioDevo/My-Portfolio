@@ -1,11 +1,31 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  background-color: #262322; }
+  box-sizing: border-box; }
 
 body {
-  background-color: #262322; }
+  background-color: #fff; }
 
-.nav__color {
+/* Header General */
+#header {
+  padding: 5px; }
+
+.abajo {
   background-color: #D9D9D9; }
+
+.nav__link {
+  padding: 15px;
+  color: #D9D9D9;
+  text-decoration: none;
+  font-size: 20px; }
+
+.stay__link {
+  font-size: 22px;
+  color: #000000; }
+
+.stay__link:hover {
+  color: #000000; }
+
+.home__icon {
+  font-size: 30px;
+  color: #D9D9D9; }

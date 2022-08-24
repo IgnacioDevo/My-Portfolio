@@ -6,42 +6,60 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="Ignacio Pacheco">
 <title>Ignacio Pacheco Website</title>
-<!-- CSS -->
-<link rel="stylesheet" href="./css/style.css">
 <!-- Bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- CSS -->
+<link rel="stylesheet" href="./css/style.css">
 <!-- Boxicons -->
 <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
      <!-- Header -->
-     <header class="sticky-top shadow">
-        <nav class="navbar navbar-expand-lg nav__color">
-        <div class="container nav__color">
-            <a class="navbar-brand nav__color" href="#"><i class='bx bxs-home nav__color'></i></a>
-            <button class="navbar-toggler nav__color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon nav__color"></span>
-            </button>
-            <div class="collapse navbar-collapse nav__color" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav__color">
-                <li class="nav-item">
-                    <a class="nav-link active nav__color" aria-current="page" href="#">About</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link active nav__color" aria-current="page" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active nav__color" aria-current="page" href="#">Contact</a>
-                </li>
-            </ul>
-            </div>
+  <header id="header" class="sticky-top">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <i class='bx bx-home-alt-2 home__icon' ></i>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav__link" href="../index.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav__link" href="../index.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav__link" href="../index.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
         </div>
-        </nav>
-    </header> 
-    <main id="main">
-    </main>
-    <footer id="footer"></footer>
+    </nav>           
+  </header>
+  </header>
+  <main id="main">
+    <div class="container">
+      <section class="principal">
+        <article class="parrafos__principal">
+          <p class="prf__hello">Hello there! I'm </p>
+          <h1 class="prf__name">Ignacio Pacheco</h1>
+          <p class="prf__hello">Designer & Frontend Developer.</p>
+          <ol class="prf__ol">
+            <li class="prf__li"><a href="#"><button class="prf__btn">Curriculum</button></a></li>
+            <li class="prf__li"><a href="#"><i class='bx bxl-github'></i></a></li>
+            <li class="prf__li"><a href="#"></a><i class='bx bxl-linkedin-square' ></i></li>
+            <li class="prf__li"><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+          </ol>
+        </article>
+        <article class="img__principal"></article>
+      </section>
+    </div>
+  </main>
+  <footer id="footer"></footer>
 <!-- Js Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="./script/app.js"></script>
 </body>
 </html>
