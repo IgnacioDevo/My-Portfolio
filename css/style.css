@@ -5,7 +5,7 @@
   font-family: 'Nunito', sans-serif; }
 
 body {
-  background-color: #fff; }
+  background-color: #262322; }
 
 /* Header General */
 #header {
@@ -40,22 +40,25 @@ body {
   align-items: flex-start;
   padding: 120px; }
   .first__part .first__ph {
+    color: beige;
     text-align: start;
     padding-left: 13px;
     font-size: 18px; }
   .first__part .first__p {
+    color: beige;
     text-align: start;
     font-size: 35px; }
   .first__part .first__h1 {
+    color: beige;
     text-align: start;
     font-size: 70px; }
 
 .first__btn {
-  background-color: #303030;
-  color: #D9D9D9;
+  background-color: beige;
+  color: #0d0d26;
+  border: 1px solid #262322;
   margin: 10px;
   padding: 5px;
-  border: #303030 1px solid;
   border-radius: 45px;
   width: 100px; }
 
@@ -67,13 +70,27 @@ body {
   .first__ol li {
     padding-right: 40px; }
     .first__ol li i {
-      font-size: 40px;
-      color: #303030; }
+      font-size: 40px; }
+    .first__ol li a {
+      color: beige; }
+
+#github a:hover {
+  color: #171515; }
+
+#linkedin a:hover {
+  color: #0e76a8; }
+
+#twitter a:hover {
+  color: #00acee; }
 
 .second__part {
   display: flex;
   flex-direction: column;
   padding: 120px; }
+  .second__part .second__ph {
+    color: beige; }
+  .second__part .second__h1 {
+    color: beige; }
 
 .info {
   display: flex;
@@ -94,6 +111,7 @@ body {
   padding: 120px; }
 
 .trid__h1 {
+  color: beige;
   text-align: start;
   padding-top: 150px; }
 
@@ -116,9 +134,14 @@ body {
     padding: 20px;
     margin: 40px; }
   .ol__skills .img__skills {
-    margin: 20px;
+    margin: 25px;
     width: 65px;
     height: 65px; }
   .ol__skills .p__skills {
     color: #fff;
     text-align: center; }
+
+.npm__skills {
+  margin: 25px;
+  width: 75px;
+  height: 65px; }

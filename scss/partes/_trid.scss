@@ -5,6 +5,7 @@
 }
 
 .trid__h1{
+    color: $color-main;
     text-align: start;
     padding-top: 150px;
 }
@@ -30,7 +31,7 @@
         margin: 40px;
     }
     & .img__skills{
-        margin: 20px;
+        margin: 25px;
         width: 65px;
         height: 65px;
     }
@@ -38,6 +39,12 @@
         color: #fff;
         text-align: center;
     }
+}
+
+.npm__skills{
+    margin: 25px;
+    width: 75px;
+    height: 65px;
 }
 
 
