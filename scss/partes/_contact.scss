@@ -1,0 +1,76 @@
+.contact__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100;
+    height: 400px;
+}
+
+.form{
+    width: 100%;
+    height: 60px;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden; 
+ }
+ 
+ .form input {
+     width: 100%;
+     height: 100%;
+     background: none;
+     color: #fff;
+     padding-top: 20px;
+     border: none;
+     outline: 0px;
+ }
+ 
+ .form .lbl-name{
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     pointer-events: none;
+     border-bottom: 1px solid #c7c7c7;
+ }
+ 
+ .form .lbl-name::after{
+     content: "";
+     position: absolute;
+     left: 0;
+     bottom: -1px;
+     width: 100%;
+     height: 100%;
+     border-bottom: 3px solid #2ecece;
+     transform: translateX(100%);
+     transition: all 0.3 ease;
+ }
+ 
+ .text-name{
+     position: absolute;
+     bottom: 5px;
+     left: 0;
+     transition: all 0.3s ease;
+     color: #fff;
+ }
+ 
+ .form input:focus + .lbl-name .text-name,.form input:valid + .lbl-name .text-name{
+     transform: translateY(-150%);
+     font-size: 14px;
+     color: #2ecece;  
+ }
+ 
+ .form input:focus + .lbl-name::after
+ .form input:valid + .lbl-name::after
+ {
+    transform: translateX(0%); 
+ }
+
+ .contact__enviar{
+    background-color: #c7c7c7;
+ }
+
+ .form__btn{
+    margin: 13px;
+ }

@@ -19,66 +19,93 @@
   <header id="header" class="sticky-top">
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <i class='bx bx-home-alt-2 home__icon' ></i>
+            <a href=""><i class='bx bx-home-alt-2 home__icon' ></i></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav__link" href="../index.html">About</a>
+                    <a class="nav__link" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav__link" href="../index.html">Projects</a>
+                    <a class="nav__link" href="#proyects">Projects</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav__link" href="../index.html">Contact</a>
+                    <a class="nav__link" href="#Contact">Contact</a>
                   </li>
                 </ul>
               </div>
         </div>
     </nav>           
   </header>
-  
+    <!-- Primera Parte -->
     <div class="first__part">
       <p class="first__ph">Hello there! I'm</p>
       <h1 class="first__h1">Ignacio Pacheco</h1>
       <p class="first__p">Designer & Frontend Developer</p>
       <button class="first__btn">Curriculum</button>
       <ol class="first__ol">
-        <li class="first__li" id="github"><a href="https://github.com/IgnacioDevo"><i class='bx bxl-github'></i></a></li>
-        <li id="linkedin"><a href="https://www.linkedin.com/in/ignacio-pacheco-065a5122b"/><i class='bx bxl-linkedin'></i></a></li> 
-        <li id="twitter"><a href="https://twitter.com/IgnacioDevvo"/><i class='bx bxl-twitter'></i></a></li> 
+        <li class="first__li" id="github"><a href="https://github.com/IgnacioDevo" target="_blank"><i class='bx bxl-github'></i></a></li>
+        <li id="linkedin"><a href="https://www.linkedin.com/in/ignacio-pacheco-065a5122b" target="_blank"/><i class='bx bxl-linkedin'></i></a></li> 
+        <li id="twitter"><a href="https://twitter.com/IgnacioDevvo" target="_blank"><i class='bx bxl-twitter'></i></a></li> 
       </ol>
     </div>
+    <!-- Sobre mi -->
     <div class="second__part">
-      <p class="second__ph">Some info</p>
+      <p class="second__ph" id="about">Some info</p>
       <h1 class="second__h1">About Me</h1>
       <div class="info">
         <p class="p__info">Thanks for getting here! I am an Argentinian developer living in Buenos Aires. I started in the world of programming in 2019. Since then I have never stopped learning and improving. 
           I am passionate about creating interactive web experiences with a good user interface. I am currently studying systems at university and improving my developer skills through courses.</p>
       </div>
+      <!-- Skills -->
       <h1 class="trid__h1">Skills</h1>
-      <div class="skills">
+      <div class="skills" id="Skills">
         <ol class="ol__skills">
           <li class="li__skills"><img src="./image/frontend/html.svg" alt="HTML Skill" class="img__skills"><p class="p__skills">HTML</p></li>
           <li class="li__skills"><img src="./image/frontend/css.svg" alt="CSS Skill" class="img__skills"><p class="p__skills">CSS</p></li>
           <li class="li__skills"><img src="./image/frontend/sass.svg" alt="SASS Skill" class="img__skills"><p class="p__skills">SASS</p></li>
+          <li class="li__skills"><img src="./image/frontend/python.png" alt="Python Skill" class="img__skills"><p class="p__skills">Python</p></li>
           <li class="li__skills"><img src="./image/frontend/javascript.svg" alt="Js Skill" class="img__skills"><p class="p__skills">JavaScript</p></li>
           <li class="li__skills"><img src="./image/frontend/react.svg" alt="React Skill" class="img__skills"><p class="p__skills">ReactJs</p></li>
           <li class="li__skills"><img src="./image/frontend/jquery.svg" alt="Jquery Skill" class="img__skills"><p class="p__skills">Jquery</p></li>
           <li class="li__skills"><img src="./image/frontend/npm.png" alt="NPM Skill" class="npm__skills"><p class="p__skills">NPM</p></li>
           <li class="li__skills"><img src="./image/designer/git.svg" alt="Git Skill" class="img__skills"><p class="p__skills">GIT</p></li>
+          <li class="li__skills"><img src="./image/frontend/github.png" alt="Git Skill" class="img__skills"><p class="p__skills">GitHub</p></li>
           <li class="li__skills"><img src="./image/designer/figma.png" alt="Figma Skill" class="img__skills"><p class="p__skills">Figma</p></li>
           <li class="li__skills"><img src="./image/designer/canva.png" alt="Canva Skill" class="img__skills"><p class="p__skills">Canva</p></li>
-          <li class="li__skills"><img src="./image/designer/vscode.svg" alt="Vscode Skill" class="img__skills"><p class="p__skills">Vscode</p></li>
-          <li class="li__skills"><img src="./image/designer/microsoftWindows.svg" alt="Windows Skill" class="img__skills"><p class="p__skills">Windows</p></li>   
+          <li class="li__skills"><img src="./image/designer/vscode.svg" alt="Vscode Skill" class="img__skills"><p class="p__skills">Vscode</p></li>  
         </ol>
       </div>
-      
-   
-
-
+      <!-- Proyectos -->
+      <h1 class="proyect__h1" id="proyects">Projects</h1>
+      <h2 class="proyect__h2">Here are a six past design proyects.</h2>
+      <div class="proyects">1</div>
+      <div class="btn__container">
+        <button class="btn__proyect"><a href="https://github.com/IgnacioDevo?tab=repositories" target="_blank">See More On Github</a></button>
+      </div>
+      <!-- Contacto -->
+      <h1 class="proyect__h1">Contacto</h1>
+      <div class="contact__container">
+        <form class="form" method="get">
+            <input type="text" required>
+            <label class="lbl-name">
+                <span class="text-name">
+                    Email
+                </span>
+            </label>
+        </form>
+        <form class="form" method="get">
+            <input type="text" required>
+            <label class="lbl-name">
+                <span class="text-name">
+                    Message
+                </span>
+            </label> 
+        </form>
+        <button class="form__btn" ><span>Registro</span></button>
+      </div>
   <footer id="footer"></footer>
 <!-- Js Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
