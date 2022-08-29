@@ -248,4 +248,14 @@ body {
   background-color: #c7c7c7; }
 
 .form__btn {
-  margin: 13px; }
+  text-align: center;
+  width: 140px;
+  margin: 15px 0 auto;
+  background-color: #262322;
+  border: #303030 solid 2px;
+  border-radius: 5px; }
+  .form__btn a {
+    text-decoration: none;
+    color: beige; }
+  .form__btn a:hover {
+    color: gray; }
