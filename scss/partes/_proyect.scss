@@ -1,0 +1,93 @@
+.card{
+    margin: 15px;
+    background-color: $color-second;
+    border: none;
+}
+
+.contenedor{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & figure{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    & img{
+        width: 100%;
+        height: 100%;
+        transition: all 500ms ease-out;
+    }
+    & figure .capa{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #303030;
+        transition: all 500ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+        text-align: center;
+    }
+    & figure:hover > .capa{
+        opacity: 1;
+        visibility: visible;
+    }
+    & figure:hover > .capa h3{
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+    & figure:hover > img{
+        transform: scale(1.3);
+    }
+    & .card__p{
+        color: $color-main;
+        margin: 50px;
+        padding-top: 40px;
+        font-size: 18px;
+    }
+}
+
+.btn__card button{
+    margin: 10px;
+}
+
+.card__page{
+    background-color: #303030;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    width: 100px;
+    & a{
+        text-decoration: none;
+        color: #fff;
+    }
+    &:hover{
+        transition: 0.9ms;
+        background-color: #D9D9D9;
+    }
+    &:hover a{
+        color: #333;
+    }
+}
+
+.card__github{
+    width: 100px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    & a{
+        text-decoration: none;
+        color: black;
+    }
+    &:hover{
+        transition: 0.9ms;
+        background-color: #303030;
+    }
+    &:hover a{
+        color: #D9D9D9;
+    }
+}
