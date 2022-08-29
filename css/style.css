@@ -12,11 +12,11 @@ body {
   padding: 5px; }
 
 .abajo {
-  background-color: #D9D9D9; }
+  background-color: #303030; }
 
 .nav__link {
   padding: 16px;
-  color: gray;
+  color: beige;
   text-decoration: none;
   font-size: 20px; }
 
@@ -25,7 +25,7 @@ body {
   color: #000000; }
 
 .stay__link:hover {
-  color: #000000; }
+  color: gray; }
 
 .home__icon {
   font-size: 30px;
@@ -84,7 +84,7 @@ body {
   color: #00acee; }
 
 .nav__link:hover {
-  color: #171515; }
+  color: gray; }
 
 .second__part {
   display: flex;
