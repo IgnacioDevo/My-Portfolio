@@ -1,0 +1,45 @@
+.footer__nav{
+    width: 100%;
+    & .footer__ol{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+    }
+    & li{
+        padding: 20px;
+        & a{
+            text-decoration: none;
+            color: #8d8d8d;
+        }
+        & i {
+            font-size: 37px;
+        }
+    }
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    & span{
+        padding-left: 30px;
+        text-align: center;
+        color: $color-main;
+    }
+}
+
+#ig:hover{
+    color: #e1306c;
+}
+
+#lin:hover{
+    color: #0072b1;
+}
+
+
+#gmail:hover{
+    color: #c71610;
+}
