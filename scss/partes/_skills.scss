@@ -1,0 +1,53 @@
+/* SKILLS */
+.trid__part{
+    display: flex;
+    flex-direction: row;
+    padding: 120px;
+}
+
+.skills__h1{
+    color: $color-main;
+    text-align: start;
+    padding-top: 150px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    padding: 30px;
+    height: 300px;
+    width: 100%;
+    background-color: #303030;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.ol__skills{
+    display: inline-flex;
+    list-style: none;
+    padding: 35px;
+    & .li__list{
+        padding: 20px;
+        margin: 40px;
+    }
+    & .img__skills{
+        margin: 25px;
+        width: 65px;
+        height: 65px;
+    }
+    & .p__skills{
+        color: #fff;
+        text-align: center;
+    }
+}
+
+.npm__skills{
+    margin: 25px;
+    width: 75px;
+    height: 65px;
+}
+
+
+
+

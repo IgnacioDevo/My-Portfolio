@@ -1,3 +1,4 @@
+/* Variables */
 * {
   padding: 0;
   margin: 0;
@@ -7,7 +8,10 @@
 body {
   background-color: #262322; }
 
-/* Header General */
+#main {
+  padding: 120px; }
+
+/* Header y NAV General */
 #header {
   padding: 5px; }
 
@@ -31,9 +35,7 @@ body {
   font-size: 30px;
   color: gray; }
 
-#main {
-  padding: 120px; }
-
+/* PRESENTACION */
 .first__part {
   display: flex;
   flex-direction: column;
@@ -61,6 +63,13 @@ body {
   padding: 5px;
   border-radius: 45px;
   width: 100px; }
+  .first__btn a {
+    text-decoration: none;
+    color: #262322; }
+  .first__btn:hover {
+    background-color: grey; }
+    .first__btn:hover a {
+      color: beige; }
 
 .first__ol {
   display: flex;
@@ -86,6 +95,7 @@ body {
 .nav__link:hover {
   color: gray; }
 
+/* ABOUT */
 .second__part {
   display: flex;
   flex-direction: column;
@@ -108,12 +118,13 @@ body {
     text-align: center;
     color: #D9D9D9; }
 
+/* SKILLS */
 .trid__part {
   display: flex;
   flex-direction: row;
   padding: 120px; }
 
-.trid__h1 {
+.skills__h1 {
   color: beige;
   text-align: start;
   padding-top: 150px; }
@@ -183,106 +194,6 @@ body {
     color: #303030; }
   .btn__container a:hover {
     color: gray; }
-
-.contact__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 100;
-  height: 400px; }
-
-.form {
-  width: 100%;
-  height: 60px;
-  max-width: 400px;
-  position: relative;
-  overflow: hidden; }
-
-.form input {
-  width: 100%;
-  height: 100%;
-  background: none;
-  color: #fff;
-  padding-top: 20px;
-  border: none;
-  outline: 0px; }
-
-.form .lbl-name {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  pointer-events: none;
-  border-bottom: 1px solid #c7c7c7; }
-
-.form .lbl-name::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  width: 100%;
-  height: 100%;
-  border-bottom: 3px solid #2ecece;
-  transform: translateX(100%);
-  transition: all 0.3 ease; }
-
-.text-name {
-  position: absolute;
-  bottom: 5px;
-  left: 0;
-  transition: all 0.3s ease;
-  color: #fff; }
-
-.form input:focus + .lbl-name .text-name, .form input:valid + .lbl-name .text-name {
-  transform: translateY(-150%);
-  font-size: 14px;
-  color: #2ecece; }
-
-.form input:focus + .lbl-name::after
-.form input:valid + .lbl-name::after {
-  transform: translateX(0%); }
-
-.contact__enviar {
-  background-color: #c7c7c7; }
-
-.form__btn {
-  text-align: center;
-  width: 140px;
-  margin: 15px 0 auto;
-  background-color: #262322;
-  border: #303030 solid 2px;
-  border-radius: 5px; }
-  .form__btn a {
-    text-decoration: none;
-    color: beige; }
-  .form__btn a:hover {
-    color: gray; }
-
-.hidden {
-  opacity: 0; }
-
-.console-container {
-  font-family: Khula;
-  font-size: 48px;
-  text-align: center;
-  height: 200px;
-  width: 600px;
-  display: block;
-  position: absolute;
-  color: white;
-  top: 80px;
-  bottom: 600px;
-  left: 0;
-  right: 2100px;
-  margin: auto; }
-
-.console-underscore {
-  display: inline-block;
-  position: relative;
-  top: -0.14em;
-  left: 10px; }
 
 .card {
   margin: 15px;
@@ -360,6 +271,84 @@ body {
   .card__github:hover a {
     color: #D9D9D9; }
 
+/* CONTACTO */
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100;
+  height: 400px; }
+
+.form {
+  width: 100%;
+  height: 60px;
+  max-width: 400px;
+  position: relative;
+  overflow: hidden; }
+
+.form input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  color: #fff;
+  padding-top: 20px;
+  border: none;
+  outline: 0px; }
+
+.form .lbl-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid #c7c7c7; }
+
+.form .lbl-name::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid #2ecece;
+  transform: translateX(100%);
+  transition: all 0.3 ease; }
+
+.text-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  transition: all 0.3s ease;
+  color: #fff; }
+
+.form input:focus + .lbl-name .text-name, .form input:valid + .lbl-name .text-name {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: #2ecece; }
+
+.form input:focus + .lbl-name::after
+.form input:valid + .lbl-name::after {
+  transform: translateX(0%); }
+
+.contact__enviar {
+  background-color: #c7c7c7; }
+
+.form__btn {
+  text-align: center;
+  width: 140px;
+  margin: 15px 0 auto;
+  background-color: #262322;
+  border: #303030 solid 2px;
+  border-radius: 5px; }
+  .form__btn a {
+    text-decoration: none;
+    color: beige; }
+  .form__btn a:hover {
+    color: gray; }
+
+/* FOOTER */
 .footer__nav {
   width: 100%; }
   .footer__nav .footer__ol {
@@ -394,3 +383,27 @@ body {
 
 #gmail:hover {
   color: #c71610; }
+
+.hidden {
+  opacity: 0; }
+
+.console-container {
+  font-family: Khula;
+  font-size: 48px;
+  text-align: center;
+  height: 200px;
+  width: 600px;
+  display: block;
+  position: absolute;
+  color: white;
+  top: 80px;
+  bottom: 600px;
+  left: 0;
+  right: 2100px;
+  margin: auto; }
+
+.console-underscore {
+  display: inline-block;
+  position: relative;
+  top: -0.14em;
+  left: 10px; }
