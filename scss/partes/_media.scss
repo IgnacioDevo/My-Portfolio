@@ -77,9 +77,68 @@ and (max-device-width : 480px) {
         & .p__info{
             font-size: 18px;
             text-align: start;
-        
             }
         }
+    
+    /* SKILLS */
+
+   
+    .trid__part{
+        display: flex;
+        flex-direction: row;
+        padding: 120px;
+    }
+
+    .skills__h1{
+        color: $color-main;
+        text-align: center;
+        padding-top: 150px;
+    }
+
+    .skills{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 30px;
+        height: 100%;
+        width: 100%;
+        background-color: #303030;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .ol__skills{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 35px;
+        & .li__list{
+            padding: 15px;
+            margin: 0 auto;
+        }
+        & .img__skills{
+            margin: 25px;
+            width: 65px;
+            height: 65px;
+        }
+        & .p__skills{
+            color: #fff;
+            text-align: center;
+        }
+    }
+
+    .npm__skills{
+        margin: 25px;
+        width: 75px;
+        height: 65px;
+}
+
+
+
+
+
+    
 }
 
 /* Smartphones (landscape) */
