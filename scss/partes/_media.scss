@@ -11,13 +11,14 @@ and (max-device-width : 480px) {
         font-size: 30px;
         text-align:start;
         height:200px;
-        width:600px;
+        width: 100%;
         display:block;
         position:absolute;
         color:white;
         top: 230px;
         bottom: 685px;
-        left: 11px;
+        padding-left: 12px;
+        left: 0;
         right: 0;
       }
       .console-underscore {
@@ -30,6 +31,7 @@ and (max-device-width : 480px) {
     /* PRESENTACION */
     .first__part{
         justify-content: flex-start;
+        width: 100%;
         padding: 90px 0 0 15px;
         & .first__h1{
             padding-top: 17px;
@@ -110,6 +112,8 @@ and (max-device-width : 480px) {
 
     .ol__skills{
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
         list-style: none;
         padding: 35px;
@@ -122,10 +126,6 @@ and (max-device-width : 480px) {
             width: 65px;
             height: 65px;
         }
-        & .p__skills{
-            color: #fff;
-            text-align: center;
-        }
     }
 
     .npm__skills{
@@ -134,12 +134,19 @@ and (max-device-width : 480px) {
         height: 65px;
 }
 
-
-
-
-
-    
+    body{
+        width: 100vw;
+        overflow-x: scroll;
 }
+
+    /* Proyect */
+
+    .proyect__h1{
+         text-align: center;
+    }
+
+}
+
 
 /* Smartphones (landscape) */
 @media only screen 
