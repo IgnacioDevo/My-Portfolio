@@ -7,9 +7,7 @@ and (max-device-width : 480px) {
     .hidden {
         opacity:0;
       }
-      .console-container {
-       
-        font-family:Khula;
+      .console-container {  
         font-size: 30px;
         text-align:start;
         height:200px;
@@ -17,11 +15,10 @@ and (max-device-width : 480px) {
         display:block;
         position:absolute;
         color:white;
-        top: 170px;
-        bottom: 600px;
-        left: 32px;
+        top: 230px;
+        bottom: 685px;
+        left: 11px;
         right: 0;
-        /* margin:auto; */
       }
       .console-underscore {
          display:inline-block;
@@ -33,7 +30,7 @@ and (max-device-width : 480px) {
     /* PRESENTACION */
     .first__part{
         justify-content: flex-start;
-        padding: 30px;
+        padding: 90px 0 0 15px;
         & .first__h1{
             padding-top: 17px;
             font-size: 30px;
@@ -54,6 +51,35 @@ and (max-device-width : 480px) {
         }
     }
 
+    /* ABOUT ME */
+   
+    .second__part{
+        display: flex;
+        flex-direction: column;
+        padding: 70px;
+        & .second__ph{
+            margin: 0 auto;      
+        }
+        & .second__h1{
+            margin: 0 auto;
+            padding: 15px;
+        }
+    }
+
+    .info{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        padding: 30px;
+        overflow-x: scroll;
+        height: 100%;
+        width: 100%;
+        & .p__info{
+            font-size: 18px;
+            text-align: start;
+        
+            }
+        }
 }
 
 /* Smartphones (landscape) */

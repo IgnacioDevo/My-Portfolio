@@ -415,7 +415,6 @@ body {
   .hidden {
     opacity: 0; }
   .console-container {
-    font-family: Khula;
     font-size: 30px;
     text-align: start;
     height: 200px;
@@ -423,11 +422,10 @@ body {
     display: block;
     position: absolute;
     color: white;
-    top: 170px;
-    bottom: 600px;
-    left: 32px;
-    right: 0;
-    /* margin:auto; */ }
+    top: 230px;
+    bottom: 685px;
+    left: 11px;
+    right: 0; }
   .console-underscore {
     display: inline-block;
     position: relative;
@@ -436,7 +434,7 @@ body {
   /* PRESENTACION */
   .first__part {
     justify-content: flex-start;
-    padding: 30px; }
+    padding: 90px 0 0 15px; }
     .first__part .first__h1 {
       padding-top: 17px;
       font-size: 30px; }
@@ -449,7 +447,28 @@ body {
     .first__part .first__ol {
       padding: 13px; }
       .first__part .first__ol i {
-        font-size: 25px; } }
+        font-size: 25px; }
+  /* ABOUT ME */
+  .second__part {
+    display: flex;
+    flex-direction: column;
+    padding: 70px; }
+    .second__part .second__ph {
+      margin: 0 auto; }
+    .second__part .second__h1 {
+      margin: 0 auto;
+      padding: 15px; }
+  .info {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px;
+    overflow-x: scroll;
+    height: 100%;
+    width: 100%; }
+    .info .p__info {
+      font-size: 18px;
+      text-align: start; } }
 
 /* Smartphones (landscape) */
 /* Smartphones (portrait) */
