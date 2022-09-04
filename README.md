@@ -1,7 +1,9 @@
 # My-Portfolio
-My personal portfolio 
+My personal portfolio. Donde muestro mi historias y las tecnologias que utilizo en el dia a dia. 
 
 
-My personal website
+Mobil: 320px max 480px
 
-XHTML5 CSS3 SASS JS
+Portatil: 1224px
+
+XHTML5 CSS3 SASS JS BOOTSTRAP
