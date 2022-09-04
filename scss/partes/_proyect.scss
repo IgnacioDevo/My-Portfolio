@@ -13,11 +13,11 @@
     color: $color-main;
 }
 
-.proyects{
-    height: 600px;
+/* .proyects{
+    height: 100px;
     width: 100%;
     background-color: #303030; 
-}
+} */
 
 .btn__container{
     display: flex;
@@ -45,6 +45,8 @@
     margin: 15px;
     background-color: $color-second;
     border: none;
+    width: 100%;
+    height: 100%;
 }
 
 .contenedor{
