@@ -163,7 +163,7 @@ body {
 
 /* Proyectos */
 .proyect__h1 {
-  padding-top: 250px;
+  padding-top: 150px;
   color: beige;
   text-align: start; }
 
@@ -173,11 +173,11 @@ body {
   font-size: 20px;
   color: beige; }
 
-/* .proyects{
-    height: 100px;
-    width: 100%;
-    background-color: #303030; 
-} */
+.proyects {
+  height: 100px;
+  width: 100%;
+  background-color: #303030; }
+
 .btn__container {
   display: flex;
   align-items: center;
@@ -280,7 +280,8 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 100;
+  padding-left: 120px;
+  width: 75%;
   height: 400px; }
 
 .form {
@@ -350,6 +351,11 @@ body {
     color: beige; }
   .form__btn a:hover {
     color: gray; }
+
+.contact__h1 {
+  color: beige;
+  text-align: start;
+  padding: 120px; }
 
 /* FOOTER */
 .footer__nav {

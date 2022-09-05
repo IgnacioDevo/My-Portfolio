@@ -4,7 +4,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 100;
+    padding-left: 120px;
+    width: 75%;
     height: 400px;
 }
 
@@ -86,4 +87,10 @@
     & a:hover{
         color: gray;
     }
+ }
+
+ .contact__h1{
+    color: $color-main;
+    text-align: start;
+    padding: 120px;
  }
