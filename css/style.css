@@ -285,7 +285,7 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   padding-left: 120px;
-  width: 7599999999%;
+  width: 100%;
   height: 400px; }
 
 .form {
@@ -523,11 +523,35 @@ body {
     height: 65px; }
   body {
     width: 100vw;
-    overflow-x: scroll; }
-  /* Proyect */
-  .proyect__h1 {
-    text-align: center; }
-  .author span {
-    margin: 0 auto; } }
+    overflow-x: scroll; } }
+
+/* Proyect */
+.proyect__h1 {
+  text-align: center; }
+
+.card__p {
+  margin: 15px;
+  padding-top: 15px;
+  font-size: 15px; }
+
+.contenedor {
+  margin: 0 auto;
+  width: 100%; }
+
+.card {
+  margin: 0 auto;
+  height: 100%;
+  width: 300px; }
+
+/* Contact */
+.contact__h1 {
+  text-align: center; }
+
+.contact__container {
+  width: 75%;
+  padding-left: 30px; }
+
+.author span {
+  margin: 0 auto; }
 
 /* Ordenadores de sobremesa y portátiles */
