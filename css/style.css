@@ -113,7 +113,9 @@ body {
   padding: 30px;
   height: 300px;
   width: 100%;
-  background-color: #303030; }
+  background-color: #303030;
+  border-radius: 12px;
+  border: 1px solid #3c3c3c; }
   .info .p__info {
     font-size: 20px;
     text-align: center;
@@ -138,6 +140,8 @@ body {
   height: 300px;
   width: 100%;
   background-color: #303030;
+  border-radius: 12px;
+  border: 1px solid #3c3c3c;
   align-items: flex-start;
   justify-content: center; }
 
@@ -281,7 +285,7 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   padding-left: 120px;
-  width: 75%;
+  width: 7599999999%;
   height: 400px; }
 
 .form {
