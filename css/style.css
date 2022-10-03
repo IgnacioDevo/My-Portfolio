@@ -34,7 +34,7 @@ body {
 
 .home__icon {
   font-size: 30px;
-  color: gray; }
+  color: beige; }
 
 /* PRESENTACION */
 .first__part {
@@ -95,6 +95,16 @@ body {
 
 .nav__link:hover {
   color: gray; }
+
+.sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.img__index {
+  margin: 50px;
+  width: 100%; }
 
 /* ABOUT */
 .second__part {
@@ -409,7 +419,7 @@ body {
   display: block;
   position: absolute;
   color: white;
-  top: 80px;
+  top: 300px;
   bottom: 600px;
   left: 0;
   right: 2100px;
@@ -428,7 +438,7 @@ body {
     opacity: 0; }
   .console-container {
     font-size: 30px;
-    text-align: start;
+    text-align: center;
     height: 200px;
     width: 100%;
     display: block;
@@ -436,7 +446,6 @@ body {
     color: white;
     top: 230px;
     bottom: 685px;
-    padding-left: 12px;
     left: 0;
     right: 0; }
   .console-underscore {
@@ -446,10 +455,11 @@ body {
     left: 10px; }
   /* PRESENTACION */
   .first__part {
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     padding: 90px 0 0 15px; }
     .first__part .first__h1 {
+      text-align: center;
       padding-top: 17px;
       font-size: 30px; }
     .first__part .first__p {
@@ -462,6 +472,15 @@ body {
       padding: 13px; }
       .first__part .first__ol i {
         font-size: 25px; }
+  .sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .img__index {
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%; }
   /* ABOUT ME */
   .second__part {
     display: flex;

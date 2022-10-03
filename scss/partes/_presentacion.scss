@@ -76,3 +76,16 @@
 .nav__link:hover{
     color: gray;
 }
+
+
+.sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__index{
+    margin: 50px;
+    width: 100%;
+}
